@@ -26,8 +26,9 @@
   },
   "license": "GPL-3.0-or-later",
   "type": "module",
-  "module": "npm/dist/WebAudioFontPlayer.js",
-  "main": "npm/dist/WebAudioFontPlayer.js",
+  "module": "npm/dist/index.js",
+  "main": "npm/dist/index.js",
+  "types": "npm/dist/index.d.ts",
   "devDependencies": {
     "typescript": "^5"
   },
