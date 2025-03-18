@@ -1,6 +1,6 @@
 {
   "name": "webaudiofont-npm",
-  "version": "3.0.04",
+  "version": "1.0.0",
   "description": "Soundfonts for web. About of 2000 musical instruments. GM MIDI compatible.",
   "keywords": [
     "audio",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/surikov/webaudiofont"
+    "url": "git+https://github.com/surikov/webaudiofont.git"
   },
   "license": "GPL-3.0-or-later",
   "type": "module",
