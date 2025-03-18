@@ -30,9 +30,8 @@
     "typescript": "^4.6.4"
   },
   "scripts": {
-    "test": "echo test",
-    "ts": "tsc --build npm/src/tsconfig.json",
-    "prepublish": "npm run ts"
+    "build": "tsc --build npm/src/tsconfig.json",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "typedoc": "^0.22.14"
