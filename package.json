@@ -25,15 +25,21 @@
     "url": "https://github.com/surikov/webaudiofont"
   },
   "license": "GPL-3.0-or-later",
+  "type": "module",
+  "module": "npm/dist/WebAudioFontPlayer.js",
   "main": "npm/dist/WebAudioFontPlayer.js",
   "devDependencies": {
-    "typescript": "^4.6.4"
+    "typescript": "^5"
   },
   "scripts": {
-    "build": "tsc --build npm/src/tsconfig.json",
+    "build": "rm -rf npm/dist && tsc --build npm/src/tsconfig.json",
     "prepublish": "npm run build"
   },
   "dependencies": {
     "typedoc": "^0.22.14"
-  }
+  },
+  "files": [
+    "npm/dist",
+    "!**/tsconfig.tsbuildinfo"
+  ]
 }
